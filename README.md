@@ -10,4 +10,4 @@ Die Folien zum Vortrag können hier gefunden werden: https://de.slideshare.net/s
 - `initial` &rarr; Initialer Stand ohne Actuator
 - `main` &rarr; Stand mit Actuator
 
-Vergleich der Branches: 
+Vergleich der Branches: https://github.com/seschi98/jug-actuator-demo/compare/initial...main
