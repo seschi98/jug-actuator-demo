@@ -1,0 +1,18 @@
+version: '3.1'
+
+services:
+  db:
+    image: mariadb:10.6
+    restart: always
+    environment:
+      MARIADB_ROOT_PASSWORD: example
+      MARIADB_DATABASE: movies
+      MARIADB_USER: movies
+      MARIADB_PASSWORD: verysecretpassword
+    volumes:
+      - data:/var/lib/mysql
+    ports:
+      - "33062:3306"
+
+volumes:
+  data: {}
